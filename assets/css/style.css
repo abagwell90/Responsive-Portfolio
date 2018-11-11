@@ -1,0 +1,399 @@
+html {
+	position: relative;
+}
+html, body {
+  background-image: url("../images/husk.png");
+  background-size: cover;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	background-color: #efefef;
+}
+
+h1, h2 {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	color: #4aaaa5;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 26px;
+}
+
+h2 {
+	font-size: 22px;
+}
+
+a.greenhref {
+  color: #4aaaa5;
+} 
+
+header {
+	width: 100%;
+	height: auto;
+	border-bottom: 2px solid #cccccc;
+	background-color: #ffffff;
+}
+
+header .wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.my-name, .my-nav-bar {
+  	display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
+
+.my-name {
+	width: 50%;
+}
+
+.header-block {
+	display: inline-block;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-weight: bold;
+	font-size: 32px;
+	letter-spacing: 1px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 30px;
+	width: auto;
+}
+
+a.about-hover:hover{
+    color: #4aaaa5;
+}
+
+a.portfolio-hover:hover{
+    color: #4aaaa5;
+}
+
+a.contact-hover:hover{
+    color: #4aaaa5;
+}
+
+.my-nav-bar {
+	width: 48%;
+	text-align: right;
+	color: #cccccc;
+	font-weight: normal;
+}
+
+.my-nav-bar ul li {
+	display: inline-block;
+	padding-left: 16px;
+	margin-left: 16px;
+}
+
+.my-nav-bar ul li a {
+	color: #cccccc;
+}
+
+a:hover { 
+  color: lightblue; 
+  }
+
+.main-content {
+  width: 963px;
+	clear: both;
+	margin: 10px auto 45px auto;
+}
+
+.main-stuff {
+	display: inline-block;
+	width: 878px;
+	margin: 40px 0;
+	padding: 40px 40px 20px 40px;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+}
+
+.main-stuff h1 {
+	font-size: 32px;
+	font-weight: bold;
+	padding-bottom: 23px;
+	margin-bottom: 30px;
+	border-bottom: 2px solid #dddddd;
+}
+
+.main-stuff p {
+	font-size: 18px;
+	line-height: 24px;
+	margin-bottom: 34px;
+}
+
+img.headshot {
+	float: left;
+	padding: 0 20px 20px 0;
+	width: auto;
+	height: 170px;
+}
+
+.andrew-portfolio-1 {
+	float: left;
+	width: 270px;
+	height: 200px;
+  margin-right: 35px;
+  margin-bottom: 45px;
+}
+
+.andrew-portfolio-2 {
+  float: left;
+	width: 270px;
+	height: 200px;
+  margin-bottom: 45px;
+}
+
+.andrew-portfolio-3 {
+	clear: both;
+  float: left;
+	width: 270px;
+	height: 200px;
+  margin-right: 35px;
+  margin-bottom: 45px;
+}
+
+.andrew-portfolio-4 {
+  float: left;
+	width: 270px;
+	height: 200px;
+  margin-bottom: 45px;
+}
+.page-header{
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.andrew-portfolio-5 {
+  clear: both;
+  float: left;
+	width: 270px;
+	height: 200px;
+  margin-bottom: 45px;
+}
+
+.item-name {
+	position: relative;
+	bottom: 73px;
+	text-align: center;
+	background-color: #4aaaa5;
+	padding: 16px;
+	color: #ffffff;
+	z-index: 1000;
+}
+
+.prof-pics {
+width: 270px;
+height: 200px;
+}
+
+.contact {
+	width: 848px;
+}
+
+.contact label {
+	display: block;
+	padding-bottom: 5px;
+}
+
+.contact input, .contact textarea {
+	width: 100%;
+	border: 1px solid #cccccc;
+	margin-bottom: 18px;
+	padding: 16px;
+	font-size: 14px;
+}
+.contact input:focus, .contact textarea:focus {
+	outline-color: #666666;
+}
+
+.contact textarea::placeholder {
+		color: #cccccc;
+}
+
+.contact input::placeholder { 
+    color: #cccccc;  
+}
+
+.contact input[type="submit"]:hover {
+	color: #4aaaa5;
+	background: #666666;
+}
+
+
+.contact input[type="submit"] {
+	width: auto;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 16px 22px;
+	font-size: 16px;
+}
+
+
+.footer-bottom {
+	width: 100%;
+	padding-top: 20px;
+  padding-bottom: 10px;
+	border-top: 7px solid #4aaaa5;
+	background-color: #666666;
+}
+
+.text {
+	text-align: center;
+  position: center;
+  font-size: 10px;
+	color: #cccccc;
+}
+
+
+
+@media screen and (max-width: 980px) {
+	.main-content {
+		width: 730px;
+	}
+	.main-stuff {
+		width: 390px;
+	}
+ 
+	.contact {
+		width: 370px;
+	}
+
+	.wrapper {
+		padding: 0px 0px 0px 130px;
+	}
+	.my-nav-bar {
+			text-align: left;
+			margin: 0;
+		
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+	.main-content {
+		width: 900px;
+	}
+	.main-stuff {
+		width: 640px;
+		padding: 30px 30px 0px 30px;
+		margin: 10px 0px 0px 40px;
+	}
+ 
+	.contact {
+		width: 615px;
+	}
+	.my-name {
+		width: 47%;
+	}
+	.wrapper {
+		padding: 0px 0px 0px 15px;
+	}
+
+	#profilePic {
+		width: 380px;
+
+
+	}
+	.my-nav-bar {
+			text-align: left;
+			padding: 0px 10px 0px 0px;
+			margin: 0px 0px 0px 0px;
+	}
+}
+
+
+@media screen and (max-width: 640px) {
+	.main-content {
+		width: 900px;
+	}
+	.main-stuff {
+		width: 480px;
+		padding: 30px 30px 0px 30px;
+		margin: 10px 0px 0px 40px;
+	}
+ 
+	.contact {
+		width: 440px;
+	}
+	.my-name {
+		width: 100%;
+		padding: 0px 0px 0px 130px;
+		background-color: #4aaaa5;
+	}
+	.wrapper {
+		
+		padding: 0px;
+
+	}
+	#profilePic {
+		width: 380px;
+		position: relative;
+	}
+	.my-nav-bar {
+			display:block;
+			margin: 0px 0px 0px 0px;
+			padding: 20px 0px 20px 70px;
+			text-align: center;
+	}
+img.prof-pics {
+	width: 470px;
+	height: 400px;
+
+}
+
+.item-name{
+	width: 438px;
+	bottom: 10;
+
+
+}
+.andrew-portfolio-1{
+	
+	padding: 10px 0px 110px 0px;
+}
+.andrew-portfolio-2{
+	
+	padding: 100px 0px 110px 0px;
+}
+.andrew-portfolio-3{
+	
+	padding: 100px 0px 110px 0px;
+}
+.andrew-portfolio-4{
+	
+	padding: 100px 0px 110px 0px;
+}
+.andrew-portfolio-5{
+	
+	padding: 100px 0px 110px 0px;
+}
+
+
+
+img.headshot {
+	width: 470px;
+	height: 400px;
+
+}
+
+.main-content {
+	height: 1000px;
+}
+.main-stuff {
+	height: 2400px;
+}
+body {
+	height: 2400px;
+}
+
+.footer-bottom {
+	position: fixed;
+}
+}
+
